@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lancheros.leonardo.millonario.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="Quieres ser millonario?"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="start_game"
+            android:text="Play"
+            tools:layout_editor_absoluteX="448dp"
+            tools:layout_editor_absoluteY="-403dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="about_game"
+            android:text="About"
+            tools:layout_editor_absoluteX="448dp"
+            tools:layout_editor_absoluteY="-403dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:onClick=""
+            app:srcCompat="@drawable/money"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
