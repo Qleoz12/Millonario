@@ -15,6 +15,8 @@ This project uses the android-gif-drawable library [https://github.com/koral--/a
 
 # References 
 
-MBE Freelance Designer [hello@madebyelvis.com] dribbble [https://dribbble.com/Madebyelvis] for the use of them images
+👥 MBE Freelance Designer [hello@madebyelvis.com] dribbble [https://dribbble.com/Madebyelvis] for the use of them images
 
 Otaku Accademy {UST} Creatore👤: @Tizietto Admin👥: @MajesticFlame @DAAHrthHarambe @CertifiedKebab @Libbro Gruppo🗣:https://telegram.me/joinchat/Acaodz6R_vQnNxxiBrL4kA for use the its image #Metal #Gear #Solid #Artwork #Snake #Eater 
+
+👤 Abhishek Saini for his examples and codes Abhi Android Chandigarh, India [http://abhiandroid.com/] [https://github.com/abhisheksaini4]
